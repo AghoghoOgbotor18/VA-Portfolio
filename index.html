@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!--Link to the CSS file-->
+    <link rel="stylesheet" href="./style.css">
+    <!--google poppins font-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <!--The Navigation Bar-->
+            <nav>
+                <div class="navbar">
+                    <h2 class="logo">Portfolio.</h2>
+                    <!--Mobile Menu Toggle-->
+                    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+                    <label for="menu-toggle" class="menu-bar">
+                        <!-- To get the 3 lines menu bar -->
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+                    <div class="blur-overlay"></div>
+                    <!--Navigation Links-->
+                    <ul class="nav-links">
+                        <li><a href="#home" class="nav-link first" id="default">Home</a></li>
+                        <li><a href="#about" class="nav-link" id="default1">About</a></li>
+                        <li><a href="#skills" class="nav-link" id="defaul2">Skills</a></li>
+                        <li><a href="#services" class="nav-link">Services</a></li>
+                        <li><a href="#project" class="nav-link">Projects</a></li>
+                        <li><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+            
+        </header>
+        
+        <main>
+            <!-- ABOUT SECTION -->
+            <section class="about-section section" id="home">
+                <div class="section-content">
+                    <div class="about-image">
+                        <img src="./Images/about-img.png" alt="portfolio image" id="my-image">
+                    </div>
+                    <div class="about-me">
+                        <h2>Hi! I'm <span>Sehara Charles</span></h2>
+                        <h3>I'm a <span>Virtual Assistant</span></h3>
+                        <p>I help busy entrepreneurs and professionals save time by handling their admin, scheduling , and tech tasks.</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/share/1CjaQVvJvB/?mibextid=wwXlfr" target="_blank" class="icon facebook" aria-label="Facebook"></a>
+                            <a href="https://x.com/sylvi_bae?s=21" target="_blank" class="icon twitter" aria-label="Twitter"></a>
+                            <a href="https://www.instagram.com/ogbotoraghogho?igsh=MXAwbWw1eDdzNWt2Ng%3D%3D&utm_source=qr" target="_blank" class="icon instagram" aria-label="Instagram"></a>
+                            <a href="https://www.linkedin.com/in/aghogho-ogbotor-a5a62b224?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" class="icon linkedin" aria-label="LinkedIn"></a>
+                        </div>
+                        <button><a href="#contact">Hire Me</a></button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- More About Me -->
+            <section class="know-section section" >
+                <div class="section-content">
+                    <h2 class="section-title" id="about">About Me</h2>
+                    <div class="know-items">
+                        <div class="more-image">
+                            <img src="./Images/about-img.png" alt="portfolio image" id="image">
+                        </div>
+                        <div class="know-more">
+                            <p>Hi, I'm Sehara Charles, a Business Administration graduate from the University of Benin. I'm a dedicated Virtual Assistant with a two(2) years experience, I'm passionate about helping business owners stay organised and stress-free. 
+                                With experience in <b>Admin Support, Scheduling, Customer Service, </b>I provide reliable and detail-oriented support that frees up your time to focus on other things.
+                            </p>
+                            <p>
+                                Whether it's managing emails, scheduling, meetings, or handling small tech tasks, my goal is to make your workday smoother and more productive.
+                                I believe in clear communication, efficiency, and always going the extra mile for my clients. 
+                            </p>
+                            <div class="achieve">
+                                <div class="complete">
+                                    <h2>50+</h2>
+                                    <p> Projects Completed</p>
+                                </div>
+                                <div class="client">
+                                    <h2>30+</h2>
+                                    <p>Happy clients</p>
+                                </div>
+                            </div>
+                            <div class="download-cv">
+                                <button class="cv-btn"><a href="./Images/Aghogho~Ogbotor. Resume.pdf" download>Download CV</a></button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+             </section>
+        
+        
+            <!-- Skills and Tools-->
+            
+            <section class="education-section section" >
+                <div class="section-content">
+                    <h2 class="section-title" id="skills">Skills and Toolkits</h2>
+                    <div class="education-grid">
+                    
+                        <!--Universtiy Education-->
+                       <div class="education-card">
+                            <div class="card-header">
+                                <h3 class="degree">Soft Skills</h3>
+                                <ul class="innovation-list">
+                                    <li class="innovation-item">Communication & Proffessionalism</li>
+                                    <li class="innovation-item">Time Management</li>
+                                    <li class="innovation-item">Problem Solving</li>
+                                    <li class="innovation-item">Attention to Details</li>
+                                    <li class="innovation-item">Organisation & Multi-tasking</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="education-card">
+                            <div class="card-header">
+                                <h3 class="degree">Tools & Software</h3>
+                                <ul class="innovation-list">
+                                    <li class="innovation-item">Gmail, Outlook</li>
+                                    <li class="innovation-item">Google Calendar, Calendly</li>
+                                    <li class="innovation-item">Microsoft Excel, Google Shhets</li>
+                                    <li class="innovation-item">Microsoft Word, Google Docs</li>
+                                    <li class="innovation-item">Trello, Notion, Asana, Slack, Zoom</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Tools Display -->
+                     <div class="moving-tools">
+                        <div class="moving-image">
+                            <img src="./images/gmail-removebg-preview.png" alt="gmail image" >
+                            <img src="./images/excel.jpg" alt="excel image" >
+                            <img src="./images/asana.jpg" alt="asana image" >
+                            <img src="./images/calendy.jpg" alt="calendly image" >
+                            <img src="./images/powerpoint.jpg" alt="powerpoint image" >
+                            <img src="./images/skype.jpg" alt="skype image" >
+                            <img src="./images/drive.jpg" alt="gmail image" >
+                            <img src="./images/hubspot.jpg" alt="hubspot image" >
+                            <img src="./images/slack.jpg" alt="slack image" >
+                            <img src="./images/trello.jpg" alt="trello image" >
+                            <img src="./images/zooms.jpg" alt="zoom image" >
+                        </div>
+                        
+                     </div>
+                
+                </div>
+            </section>  
+
+            <!-- INTEREST SECTION -->
+            <section class="interest-section section" >
+                <div class="section-content">
+                    <h2 class="section-title" id="services">Services Offered</h2>
+                    <div class="interest-grid">
+                        <!--First interest box-->
+                        <div class="interest-box">
+                            <div class="box-header">
+                                <div class="box-icon">
+                                    <img src="./Images/email.jpg" width="30px">
+                                </div>
+                                <h3 class="box-title">Email & Calendar Management</h3>
+                            </div>
+                            <p class="box-desc">
+                                Stay on top of your inbox and appointments without stress. I organise your emails, schedule meetings, amd make sure you never miss an import date.
+                            </p>
+                            <ul class="innovation-list">
+                                <li class="innovation-item">Inbox cleanup and organisation</li>
+                                <li class="innovation-item">Scheduling meetings and reminders</li>
+                                <li class="innovation-item">Drafting and sending professional emails</li>
+                            </ul>
+                        </div>
+                        <!--Second Interest Box-->
+                        <div class="interest-box">
+                            <div class="box-header">
+                                <div class="box-icon">
+                                    <img src="./Images/note.jpg" width="20px">
+                                </div>
+                                <h3 class="box-title">Document Preparation & Data Entry</h3>
+                            </div>
+                            <p class="box-desc">
+                                From reports to spreadsheets, I create well-organised documents and handle data entry with accuracy and efficiency.
+                            </p>
+                            <ul class="innovation-list">
+                                <li class="innovation-item">Word processing and formatting</li>
+                                <li class="innovation-item">Spreadsheet creation and data entry</li>
+                                <li class="innovation-item">Preparing presentations and reports</li>
+                            </ul>
+                        </div>
+                        <!--Third interest box-->
+                        <div class="interest-box">
+                            <div class="box-header">
+                                <div class="box-icon">
+                                    <img src="./Images/social-removebg-preview.png" width="30px">
+                                </div>
+                                <h3 class="box-title">Social Media Scheduling</h3>
+                            </div>
+                            <p class="box-desc">
+                                Consistent posting made easy! I schedule and organize your social media content so you stay visible and engaging without the overwhelm.
+                            </p>
+                            <ul class="innovation-list">
+                                <li class="innovation-item">Scheduleing posts accross platforms</li>
+                                <li class="innovation-item">Hashtags and caption organisation</li>
+                                <li class="innovation-item">IPFS content addressing</li>
+                            </ul>
+                        </div>
+
+                        <!--fourth interest box-->
+                        <!--
+                        <div class="interest-box">
+                            <div class="box-header">
+                                <div class="box-icon">
+                                    <img src="./Images/research.jpg" width="20px">
+                                </div>
+                                <h3 class="box-title">Research & Reporting</h3>
+                            </div>
+                            <p class="box-desc">
+                                I gather the information you need, analyze it and present it in a clear, easy-to-read reports thereby saving you time and helping you make better business decisions.
+                            </p>
+                            <ul class="innovation-list">
+                                <li class="innovation-item">Market and competitor research</li>
+                                <li class="innovation-item">Data collection and analysis</li>
+                                <li class="innovation-item">Weekly/monthly reporting</li>
+                            </ul>
+                        </div> -->
+                    </div>
+                </div>
+            </section> 
+
+            <!-- PROJECT SECTION -->
+            <section class="project-section section">
+                <div class="section-content">
+                    <h2 class="section-title" id="project">My Projects</h2>
+                    <div class="project-grid">
+                        <!-- First Project -->
+                        <div class="project-box">
+                            <img src="./Images/calender.jpg" alt="form image" class="project-image">
+                            <div class="about-project">
+                                <h3 class="box-title">Email and Calendar Management</h3>
+                                <p>Managed a busy executive's inbox, reduced clutter by 70%, and created an organized calendar for smooth scheduling.</p>
+                                <button class="btn view-work project-button" data-img="./images/calender.jpg">View Work</button>
+                            </div>
+                        </div>
+                        <!-- Second project -->
+                        <div class="project-box">
+                            <img src="./images/social media.jpg" alt="form image" class="project-image">
+                            <div class="about-project">
+                                <h3 class="box-title">Social Media Scheduling</h3>
+                                <p>Planned and scheduled posts for instagram and linkedIn, ensuring consistent online presence.</p>
+                                <button class="btn view-work project-button" data-img="./images/social media.jpg">View Work</button>
+                            </div>
+                        </div>
+                        <!-- third project -->
+                        <div class="project-box">
+                            <img src="./images/research copy.jpg" alt="form image" class="project-image">
+                            <div class="about-project">
+                                <h3 class="box-title">Research and Reporting</h3>
+                                <p>Conducted Market research and created a summary report with actionable insights.</p>
+                                <button class="btn view-work project-button" data-img="./images/research copy.jpg">View Work</button>
+
+                            </div>
+                        </div>
+                        
+                        <div class="project-box">
+                            <img src="./images/spreadsheet.jpg" alt="form image" class="project-image">
+                            <div class="about-project">
+                                <h3 class="box-title">Document & Data Management</h3>
+                                <p>Prepared spreadsheets and organized business data for accurate record-keeping.</p>
+                                <button class="btn view-work project-button" data-img="./images/spreadsheet.jpg">View Work</button>
+
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </section>
+
+            <!--CONTACT SECTION-->
+            <section class="contact-section section" >
+                <div class="section-content">
+                    <h2 class="section-title" id="contact">Get In Touch</h2>
+                    <div class="contact-form">
+                        <div class="contact-details">
+                            <p id="info">Need help with your business? I'm here for you.</p>
+                            <div class="contact-info">
+                                <p><strong>Email:</strong> seharacharles@gmail.com</p>
+                                <p><strong>Phone:</strong> +2348026930078</p>
+                            </div>
+                            <div class="social-icons">
+                                <a href="https://www.facebook.com/share/1CjaQVvJvB/?mibextid=wwXlfr" target="_blank" class="icon facebook" aria-label="Facebook"></a>
+                                <a href="https://x.com/sylvi_bae?s=21" target="_blank" class="icon twitter" aria-label="Twitter"></a>
+                                <a href="https://www.instagram.com/ogbotoraghogho?igsh=MXAwbWw1eDdzNWt2Ng%3D%3D&utm_source=qr" target="_blank" class="icon instagram" aria-label="Instagram"></a>
+                                <a href="https://www.linkedin.com/in/aghogho-ogbotor-a5a62b224?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" class="icon linkedin" aria-label="LinkedIn"></a>
+                            </div>
+                        </div>
+                        <form action="">
+                            <div class="form-group">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control" required placeholder="Your name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email Address</label>
+                                <input type="email" id="email" required class="form-control" placeholder="Your email">
+                            </div>
+                            <div class="form-group">
+                                <label for="subject" class="form-label">Subject</label>
+                                <input type="text" id="subject" required class="form-control" placeholder="Message Subject">
+                            </div>
+                            <div class="form-group">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea id="message" class="form-control" required placeholder="Your message"></textarea>
+                            </div>
+                            <button type="submit" class="submit-btn">Send Message</button>
+                        <div class="success-message">Message Sent Successfully</div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            
+        </main>
+        
+        <footer class="footer">
+            <p>&copy Sehara Charles. Your Personal Virtual Assistant | All Rights Reserved.</p>
+        </footer> 
+            
+        
+    <script src="./script.js"></script>
+</body>
+</html>
